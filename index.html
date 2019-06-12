@@ -1,117 +1,175 @@
----
-layout: default
-title: ICML Workshop on Stein's Method
----
-
-		<div class="blurb">
-			<h1>Workshop on Stein's Method in Machine Learning and Statistics <img src="beach.jpg" alt="beach", width="460", height="280", align="right", style="padding:30px;"></h1>
-			<h4>International Conference on Machine Learning 2019</h4>
-			<p><strong>Date:</strong> Saturday 15th June 2019.</p> 
-			<p><strong>Location:</strong> Long Beach Convention Center.</p>
-			
-		</div> 
-
-<div class="blurb">
-
-	<h4> Outline </h4>
-	<p>Stein's method is a technique from probability theory for bounding the distance between probability measures using differential and difference operators. Although the method was initially designed as a technique for proving central limit theorems, it has recently caught the attention of the machine learning (ML) community and has been used for a variety of practical tasks. Recent applications include goodness-of-fit testing, generative modeling, global non-convex optimisation, variational inference, de novo sampling, constructing powerful control variates for Monte Carlo variance reduction, and measuring the quality of Markov chain Monte Carlo algorithms.</p> 
-
-	<p>Although Stein's method has already had significant impact in ML, most of the applications only scratch the surface of this rich area of research in probability theory. Significant gains could be made by encouraging both communities to interact directly, and this workshop aims to facilitate this discussion.</p>
- 
-	<p>The workshop will begin with an introduction to Stein's method which will be accessible for researchers in machine learning who are unfamiliar with the topic. It will then consist of an alternating sequence of invited talks from machine learning researchers and experts in Stein's method, which will highlight both foundational topics and applications in machine learning and statistics. The workshop will also include a session for contributed posters and will conclude with a panel discussion to elicit a concise summary of the state of the field. </p>
-</div>
+<p><b>Turing - Reading Group 2019 </b></p>
 
 
-<div class="blurb">
+<p>=============================================================</p>
+<p>Optimization</p>
+<p>=============================================================</p>
 
-	<h4> Timetable </h4>
+<p><b>06/02/19: Stochastic Gradient Descent (Marina Riabiz)</b></p>
+<ul class="small"><li>Leon Bottou, Frank E. Curtis, Jorge Nocedal, <i>Optimization Methods for Large-Scale Machine Learning,</i> <u>https://arxiv.org/pdf/1606.04838.pdf#page21</u></li></ul></ul>
 
-	<ul>
-		<li>8:30-8:45: Overview of the day - Francois-Xavier Briol</li>
-		<li>8:45-9:45: Tutorial - Larry Goldstein</li>
-		<li>9:45-10:30: Invited Talk - Anima Anandkumar</li>
-		<li>10:30-11:00: Break</li>
-		<li>11:00-11:45: Invited Talk - Arthur Gretton</li>
-		<li>11:45-12:30: Invited Talk - Andrew Duncan</li>
-		<li>12:30-13:45: Lunch and Poster Session</li>
-		<li>13:45-14:30: Invited Talk - Yinghzen Li</li>
-		<li>14:30-15:15: Invited Talk - Ruiyi Zhang</li>
-		<li>15:15-15:45: Break</li>
-		<li>15:45-16:30: Invited Talk - Paul Valiant</li>
-		<li>16:30-17:15: Invited Talk - Louis Chen</li>
-		<li>17:15-18:00: Panel Discussion - All speakers</li>
-	</ul> 
-	
-</div>
+<p><b>13/02/19: Proof of convergence rate of Stochastic Gradient Descent (</b><b>Ömer Deniz Akyıldız</b><b>)</b></p>
+
+<p><b>20/02/19: Proof of convergence rate of Gradient Descent (Ömer Deniz Akyıldız)</b></p>
+<ul class="small"><li>Robert M. Gower<i>, Convergence Theorems for Gradient Descent, </i><u>https://perso.telecom-paristech.fr/rgower/pdf/M2_statistique_optimisation/grad_conv.pdf</u></li></ul>
+<li>Ji Liu, Stochastic Gradient ‘Descent’ Algorithm  <u>https://www.cs.rochester.edu/u/jliu/CSC-576/class-note-10.pdf</u>, </li></ul>
+
+<p><b>27/02/19: Stochastic Gradient Langevin Dynamics</b><i> </i><b>(Andrew Duncan)</b></p>
+<ul class="small"><li>Maxim Raginsky, Alexander Rakhlin, Matus Telgarsky, <i>Non-Convex Learning via Stochastic Gradient Langevin Dynamics: A Nonasymptotic Analysis,</i> <u>https://arxiv.org/pdf/1702.03849.pdf</u></li></ul></ul>
+
+<p><b>06/03/2019</b><b>: Conjugate Gradient Methods (Taha Ceriti)</b></p>
+<ul class="small"><li>Chris Bishop, <i>Neural Networks for Pattern Recognition</i>, Chapter 7. </li></ul>
+<li>J.R. Shewchuk, <i>An Introduction to the Conjugate Gradient Method Without the Agonizing Pain</i>, 1994 <u>https://www.cs.cmu.edu/~quake-papers/painless-conjugate-gradient.pdf</u></li></ul>
 
 
-<div class="blurb">
+<p>Extra References:</p>
 
-	<h4> Invited Speakers </h4>
+<ul class="small"><li>S. Bubeck, Convex Optimization: Algorithms and Complexity. In Foundations and Trends in Machine Learning, Vol. 8: No. 3-4, pp 231-357, 2015. <u><a href="http://sbubeck.com/Bubeck15.pdf" rel="nofollow">http://sbubeck.com/Bubeck15.pdf</a></u></li></ul>
+<ul class="small"><li>Nagapetyan et al., The True Cost of SGLD, <u>https://arxiv.org/pdf/1706.02692.pdf</u></li></ul>
+<li>Brosse at al, The promises and pitfalls of Stochastic Gradient Langevin Dynamics, <u>https://arxiv.org/pdf/1811.10072.pdf</u></li>
+<li>Dalalyan and Karagulyan, User-friendly guarantees for the Langevin Monte Carlo with inaccurate gradient, <u>https://arxiv.org/pdf/1710.00095.pdf</u></li>
+<li>Vollmer et al., Exploration of the (Non-)asymptotic Bias and Variance of Stochastic Gradient Langevin Dynamics, <u>https://arxiv.org/pdf/1501.00438.pdf</u></li></ul>
+<p>=============================================================</p>
+<p>Gaussian Processes and RKHS</p>
+<p>=============================================================</p>
 
-	<ul>
+<p><b>13/03/19: Hyperparameter estimation for Gaussian Processes (Alex Diaz)</b> </p>
+<ul class="small"><li>Rassmussen, C.E., Gaussian Processes for Machine Learning (Ch2 and Ch 5)</li></ul></ul>
+<p><a href="http://www.gaussianprocess.org/gpml/chapters/RW.pdf" rel="nofollow">http://www.gaussianprocess.org/gpml/chapters/RW.pdf</a></p>
+<ul class="small"><li>DiazDelaO, F.A. et al. (2017) Bayesian updating and model class selection with Subset Simulation</li></ul></ul>
+<p>https://www.sciencedirect.com/science/article/pii/S0045782516308283</p>
+<ul class="small"><li>Garbuno-Inigo, A. et al. (2016) Gaussian process hyper-parameter estimation using Parallel Asymptotically Independent Markov Sampling</li></ul></ul>
+<p>https://www.sciencedirect.com/science/article/pii/S0167947316301311</p>
+<ul class="small"><li>Garbuno-Inigo, A. et al. (2016) Transitional annealed adaptive slice sampling for Gaussian process hyper-parameter estimation</li></ul></ul>
+<p><a href="http://www.dl.begellhouse.com/journals/52034eb04b657aea,55c0c92f02169163,2f3449c01b48b322.html" rel="nofollow">http://www.dl.begellhouse.com/journals/52034eb04b657aea,55c0c92f02169163,2f3449c01b48b322.html</a></p>
 
-		<li> <strong><a href="http://tensorlab.cms.caltech.edu/users/anima/"> Anima Anandkumar (California Institute of Technology, US)</a></strong>. Anima is Bren Professor in the Department of Computing and Mathematical Sciences at the California Institute of Technology and Director of Machine Learning Research at NVIDIA. She has several papers establishing connections between Stein's method and discriminative learning and tensor methods.</li>
+<p><b>20/03/19</b><b>: </b><b>Gaussian Interpolation/Regression Error Bounds </b><b>(George Wynne)</b></p>
+<ul class="small"><li>Holger Wendland, Christien Rieger, Approximate Interpolation with Applications to Selecting Smoothing Parameters</li></ul></ul>
+<p>https://link.springer.com/article/10.1007/s00211-005-0637-y</p>
 
-		<li> <strong><a href="http://www.math.nus.edu.sg/~lhychen/"> Louis Chen (National University Singapore, Singapore)</a></strong>. Louis is Emeritus Professor in the Department of Mathematics at the National University of Singapore. On top of his dozens of papers on Stein's method, he has co-authored a book and edited two others on the topic.</li>
-
-		<li> <strong><a href="https://www.turing.ac.uk/people/researchers/andrew-duncan"> Andrew Duncan (Imperial College London, UK)</a></strong>. Andrew is RAEng Assistant Professor in the Department of Mathematics at Imperial College London and group leader for the Data-Centric Engineering Programme at the Alan Turing Institute. Andrew's research applies Stein's method to a variety of problems in ML, including to assessing convergence of MCMC samplers and for learning models with an unnormalised likelihood.</li>
-
-		<li> <strong><a href="http://www.gatsby.ucl.ac.uk/~gretton/"> Arthur Gretton (University College London, UK)</a></strong>. Arthur is Professor at the Gatsby Computational Neuroscience Unit at University College London. He is the author of several papers at the intersection of kernel methods and Stein's method for hypothesis testing, and received a NeurIPS 2017 Best Paper award for a novel approach to goodness-of-fit testing using Stein's method. </li>
-
-		<li> <strong><a href="http://yingzhenli.net/home/en/"> Yingzhen Li (Microsoft Research Cambridge, UK)</a></strong>. Yingzhen is a researcher at Microsoft Research Cambridge, where she works on Bayesian deep learning including graphical models, fast inference methods and uncertainty estimates for downstream tasks. She is particularly interested in connections between Stein's method and gradient estimators for implicit models.  </li>
-
-		<li> <strong><a href="http://cs.brown.edu/~pvaliant/"> Paul Valiant (Brown University, US)</a></strong>. Paul is assistant professor in the department of Computer Science at Brown. He has contributed methodology on particle-based variational inference, and is particular interested in connections with Stein Variational Gradient Descent.  </li>
-
-		<li> <strong><a href="https://users.cs.duke.edu/~ryzhang/"> Ruiyi Zhang (Duke University, US)</a></strong>. Ruiyi is a PhD student in the department of computer science at Duke University. Ruiyi has contributed methodology on particle-based variational inference, and is particular interested in connections with Stein Variational Gradient Descent.  </li>
-		
-
-	</ul>
-
-</div>
+<p><b>27/03/19: Structure of the Gaussian RKHS (Toni Karvonen)</b></p>
+<ul class="small"><li>Ha Quang Minh, <i>Some Properties of Gaussian Reproducing Kernel Hilbert Spaces and Their Implications for Function Approximation and Learning Theory, </i><u>https://link.springer.com/article/10.1007/s00365-009-9080-0</u></li></ul></ul>
 
 
-<div class="blurb">
-
-	<h4> Registration </h4>
-	<p>Registration for this workshop is through the main <strong><a href="https://icml.cc/"> ICML website</a></strong>. We encourage participants to register as soon as possible as places are limited and often fill up quickly.</p>
-
-</div>
+<p>Extra References:</p>
+<p>Steinwart, I., Hush, D., & Scovel, C. (2006). An explicit description of the reproducing kernel Hilbert spaces of Gaussian RBF kernels. IEEE Transactions on Information Theory, 52(10), 4635–4643</p>
 
 
 
-<div>
-
-	<h4>Organisation</h4>
-
-	<ul>
-			<li> <strong><a href="https://fxbriol.github.io/"> Francois-Xavier Briol (University of Cambridge, UK)</a></strong>. Francois-Xavier is a research associate in the Department of Engineering at the University of Cambridge and a visiting researcher at the Alan Turing Institute within the Data-Centric Engineering programme. His research focuses on inference and computation for probabilistic models, and has worked on applications of Stein's method to Bayesian computation. </li>
-
-			<li> <strong><a href="https://web.stanford.edu/~lmackey/"> Lester Mackey (Microsoft Research, US)</a></strong>. Lester is a Researcher at Microsoft Research New England and an Adjunct Professor of Statistics at Stanford University. He has been actively developing Stein's method tools for a variety of problems in machine learning and probabilistic inference including global non-convex optimization, de novo sampling, hypothesis testing, causal inference, and Markov chain Monte Carlo parameter tuning and sampler selection. </li>
-
-			<li> <strong><a href="http://oates.work/"> Chris J. Oates (Newcastle University, UK)</a></strong>. Chris is Chair in Statistics at Newcastle University, UK, and group leader for the Data-Centric Engineering programme at the Alan Turing Institute, UK. His research interests include using Stein's method for posterior computation in the Bayesian statistical context.</li>
-
-			<li> <strong><a href="https://www.cs.utexas.edu/~lqiang/"> Qiang Liu (UT Austin, US)</a></strong>. Qiang is an assistant professor of computer science at UT Austin. His research focuses on probabilistic learning and approximate inference, including application of Stein's method to addressing algorithmic challenges in approximate inference and learning.</li>
-
-			<li> <strong><a href="https://dornsife.usc.edu/larry-goldstein/"> Larry Goldstein (University of Southern California, US)</a></strong>. Larry is Professor of Mathematics at the University of Southern California. His research interests center on Stein's method for distributional approximation and its applications in high dimensional statistical contexts. He is co-author of the 2010 Springer text on 'Normal approximation by Stein's method'.</li>
-	</ul>
 
 
-</div>
-					
 
-<div class="blurb">
 
-	<h4> Call for Contributed Posters </h4>
 
-	<p>The deadline for submissions has now closed </p>     
 
-	<p><s>The workshop is looking for contributed posters on all aspects of Stein's method, including foundational work and/or its application to any topic relating to machine learning or statistics. Submissions can either be about novel work, or be based on recently published papers. We particularly welcome submissions which aim to spark discussions on novel uses of Stein's method in machine learning, statistics and related topics.</s></p>
 
-	<p><s>To contribute to the workshop, please send a half-page abstract in pdf form to steinworkshop [at] gmail.com. The submissions will then be reviewed by a panel consisting of the organisers of the workshop, and be accepted based on their relevance to the workshop as highlighted above.</s></p>
 
-	<p><s>This workshop aims to be inclusive, and we therefore particularly encourage submissions from under-represented communities.</s></p>
 
-	<p><s>Note that four complimentary workshop registrations are available. Please indicate whether you would like to be considered for these when submitting your proposal. Complimentary registrations will be prioritised for early-career researchers.</s></p>
 
-</div>
+<p>=============================================================</p>
+<p>Invited Talks + Deep GPs</p>
+<p>=============================================================</p>
+
+<p><b>03/04/19: Bayesian synthetic likelihood (Leah South)</b></p>
+<ul class="small"><li>L. F. Price, C. C. Drovandi, A. Lee & D. J. Nott, <i>Bayesian Synthetic Likelihood, </i><u>https://www.tandfonline.com/doi/abs/10.1080/10618600.2017.1302882</u> </li></ul></ul>
+
+<p><b>12/04/19: Deep Gaussian Processes (Kangrui Wang) </b></p>
+<ul class="small"><li>Damianou A, Lawrence N. Deep Gaussian processes</li></ul></ul>
+<p><a href="http://proceedings.mlr.press/v31/damianou13a.pdf" rel="nofollow">http://proceedings.mlr.press/v31/damianou13a.pdf</a></p>
+<ul class="small"><li>Dunlop M M, Girolami M A, Stuart A M, et al. How deep are deep Gaussian processes?</li></ul></ul>
+<p><a href="http://www.jmlr.org/papers/volume19/18-015/18-015.pdf" rel="nofollow">http://www.jmlr.org/papers/volume19/18-015/18-015.pdf</a></p>
+<ul class="small"><li>Bauer M, van der Wilk M, Rasmussen C E. Understanding probabilistic sparse Gaussian process approximations</li></ul></ul>
+<p>https://arxiv.org/abs/1606.04820</p>
+
+<p><b>17/04/19: </b><b>Multi Level Monte Carlo (</b><b>Alastair Gregory</b><b>)</b></p>
+<ul class="small"><li><a href="http://people.maths.ox.ac.uk/gilesm/files/cgst.pdf" rel="nofollow">http://people.maths.ox.ac.uk/gilesm/files/cgst.pdf</a></li></ul>
+<ul class="small"><li>https://people.maths.ox.ac.uk/gilesm/files/OPRE_2008.pdf</li></ul></ul>
+
+
+
+<p><b>24/04/19: Adaptive Bayesian Quadrature (Matthew Fisher)</b></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>=============================================================</p>
+<p>MMD & Stein’s method</p>
+<p>=============================================================</p>
+
+<p><b>01/05/19: Controlling Convergence with Maximum Mean Discrepancy (Chris Oates)</b></p>
+<li>Gretton, A., Borgwardt, K., Rasch, M., Schölkopf, B. and Smola, A.J., 2007. <i>A kernel method for the two-sample-problem</i>. <u><a href="http://papers.nips.cc/paper/3110-a-kernel-method-for-the-two-sample-problem.pdf" rel="nofollow">http://papers.nips.cc/paper/3110-a-kernel-method-for-the-two-sample-problem.pdf</a></u> </li></ul>
+
+<p><b>08/05/19: Introduction to Stein’s method (FX Briol)</b></p>
+<ul class="small"><li>Talk will cover Chapter 2 of “Chen, L. H. Y., Goldstein, L., & Shao, Q.-M. (2011). Normal Approximation by Stein’s Method. Springer.”</li></ul>
+<li>Gorham,  J., Duncan, A., Mackey, L., & Vollmer, S. (2016). Measuring Sample </li></ul>
+<p>Quality with Diffusions. ArXiv:1506.03039.</p>
+<ul class="small"><li>Gorham, J., & Mackey, L. (2017). Measuring Sample Quality with Kernels. In Proceedings of the International Conference on Machine Learning (pp. 1292–1301).</li></ul></ul>
+
+<p><b>15/05/19: </b><b>Bochner's Theorem and Maximum Mean Discrepancy</b><b> (George Wynne)</b></p>
+<ul class="small"><li>Theorem 9 in <b><u><a href="http://www.jmlr.org/papers/volume11/sriperumbudur10a/sriperumbudur10a.pdf" rel="nofollow">http://www.jmlr.org/papers/volume11/sriperumbudur10a/sriperumbudur10a.pdf</a></b></u><b> </b>is the result of Bochner's theorem being used in MMD</li></ul></ul>
+
+<ul class="small"><li><b><u><a href="http://www.math.nus.edu.sg/~matsr/ProbI/Lecture7.pdf" rel="nofollow">http://www.math.nus.edu.sg/~matsr/ProbI/Lecture7.pdf</a></b></u><b> </b>is a source for proof of Bochner's theorem</li></ul></ul>
+
+
+
+
+<p>Extra References:</p>
+<p>https://sites.google.com/site/steinsmethod/home</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>=============================================================</p>
+<p>Greedy Algorithms</p>
+<p>=============================================================</p>
+
+<p><b>19/06/19: Convergence Guarantees for Adaptive Bayesian Quadrature Methods (Motonobu Kanagawa)</b></p>
+<li>Kanagawa, M. and Hennig, P, 2019. <i>Convergence Guarantees for Adaptive Bayesian Quadrature Methods</i>. <u>https://arxiv.org/abs/1905.10271</u> </li></ul>
+
+
+
+
+
+<p></p>
+<p>=============================================================</p>
+<p>Uncertainty exploration in aerospace (working title!)</p>
+<p>=============================================================</p>
+
+<p><b>27/06/19: Polynomial approximations in uncertainty quantification (Pranay Seshadri)</b></p>
+<ul class="small"><li><b>The Design of Resilient Engineering Infrastructure Systems (Jonathan Mak)</b></li></ul></ul>
+
+<li>Talk will cover Xiu D (2010) “Numerical methods for stochastic computations: a spectral method approach”. Princeton University Press.</li></ul>
+
+<p><b>03/07/19: </b><b>Using machine learning to predict and understand turbulence modelling uncertainties </b><b>(Ashley Scillitoe)</b></p>
+<li>TBC</li></ul>
+<p><b>	</b></p>
+
+
